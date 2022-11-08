@@ -94,5 +94,20 @@ p{
     p{
       margin-top: 130px;  
     }
+
+    .pipe{
+        animation: pipe-animation 1s infinite linear;
+    }
+
+    @keyframes pipe-animation {
+        from{
+            right: -100px;
+        }
+    
+        to{
+            right: 100%;
+        }
+        
+    }
     
 }
